@@ -1,0 +1,178 @@
+/*Respnsive del navbar*/
+@media (max-width: 770px) {
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  .logo {
+    width: 220px;
+    margin: 0 0 0 25px;
+    display: none;
+  }
+
+  .logo-media {
+    width: 50px;
+    margin: 0 0 0 15px;
+    display: block;
+  }
+
+  .cont-bars {
+    display: block;
+    margin: 0 25px 0 20px;
+  }
+  .cont-user {
+    margin: 0;
+  }
+
+  .cont-carrito {
+    margin: 0 10px 0 0;
+  }
+  .cont-buscar {
+    display: block;
+  }
+
+  .navbar .busqueda_form-1 {
+    background-color: rgb(209, 194, 194);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -100%;
+    transition: 0.3s;
+    padding: 10px;
+    gap: 5px;
+  }
+
+  
+  .cont-buscar {
+    margin: 0 10px 0 0;
+    display: none;
+  }
+
+  .busqueda {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .submit {
+    width: 20%;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .lista {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background-color: rgb(0, 0, 0);*/
+    background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.486) 0%, hsla(0, 0%, 0%, 0.885) 100%), url(https://images.pexels.com/photos/3978392/pexels-photo-3978392.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: -100%;
+    height: 100vh;
+    transition: 0.5s;
+    z-index: 100;
+  }
+
+  .cont-ul .lista li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .icon {
+    cursor: pointer;
+    width: 40px;
+  }
+
+  .responsive {
+    right: 0;
+  }
+
+  /*Resposive del carrito*/
+  .cont-cart-ver{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+
+
+}
+}
+
+
+/*REsponsive en phone*/
+@media (max-width: 450px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .logo {
+    width: 150px;
+    margin: 0 0 0 25px;
+  }
+
+  .cont-bars {
+    display: block;
+    margin: 0 25px 0 20px;
+  }
+  .cont-user {
+    margin: 0 10px 0 0;
+  }
+
+  .cont-carrito {
+    margin: 0 10px 0 0;
+  }
+  .cont-buscar {
+    margin: 0 10px 0 0;
+  }
+}   /*Fin del reponsive del Navbar*/
+
+
+
+
+/*Responsive de la landypass*/
+@media (max-width:725px) {
+  .landy{
+    width: 100%;
+    gap: 0;
+    flex-direction: column-reverse;
+  }
+  
+  .cont-landy{
+    /*background-color: yellow;*/
+    width: 90%;
+    padding: 0 0 15px 0;
+  }
+  
+  .cont-landy__title{
+    font-size: 35px;
+    padding: 10px 0;
+  }
+  .cont-landy__p{
+    font-size: 18px;
+    margin: 0;
+  }
+  .cont-landy__a{
+    font-size: 15px;
+  }
+
+  .cont-landy-img{
+    width: 50%;
+    border-bottom: 1px rgb(181, 178, 178) solid;
+  }
+  .cont-landy-img img{
+    width: 90%;
+  }
+  
+}   /*Fin del Responsive de la landypass*/
+
+
+  

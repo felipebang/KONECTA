@@ -1,0 +1,154 @@
+
+.container-seccion{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    margin: 50px 0 0 0;
+    flex-wrap: wrap;
+    height: 60vh;
+
+}
+
+.cont-cards-new{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    padding: 0 10px;
+}
+
+.cont-img-cards{
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cont-img-cards img{
+    width: 100%;
+}
+
+.cont-cards-new h1{
+    text-align: center;
+}
+
+.cont-cards-new a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 3.5px;
+    padding: 6px 0;
+    transition: .5s;
+}
+
+.cont-cards-new a:hover{
+    background-color: rgb(3, 104, 3);
+
+}
+
+.cont-cards-new small{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.cont-cards-new form{
+    width: 100%;
+}
+
+.cont-cards-new form .btn-cards{
+    width: 100%;
+    background-color: #0D6EFD;
+    padding: 6.5px 0;
+    border: none;
+    border-radius: 2.5px;
+    margin: 10px 0 0 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.cont-cards-new form .btn-cards:hover{
+    background-color: #212529;
+}
+
+.cont-cards-new form .A{
+    width: 100%;
+    background-color: #198754;
+    padding: 6.5px 0;
+    border: none;
+    border-radius: 2.5px;
+    margin: 10px 0 0 0;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+/*model*/
+
+.modalContainer {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modalContainer .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-top: 10px solid #58abb7;
+    width: 60%;
+}
+
+.modalContainer .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width:750px) {
+    .container-seccion{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 50px;
+        margin: 50px 0 0 0;
+        flex-wrap: wrap;
+        height: auto;
+    
+    }
+}

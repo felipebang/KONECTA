@@ -1,0 +1,88 @@
+.cont-order{
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(245, 243, 243);
+    margin: 0 25px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.cont-img-order{
+    width: 80px;
+    margin: 15px auto ;
+}
+
+.cont-img-order img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.cont-fecha{
+    margin: 10px 0;
+}
+.cont-fecha h5{
+    font-weight: bold;
+}
+.cont-btn-order button{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px 15px 0;
+    padding: 0 5px;
+    transition: .5s;
+}
+.cont-btn-order button:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+
+}
+
+.cont-btn-order button a{
+    text-transform: none;
+    font-size: 13px;
+
+}
+
+.infor{
+    background-color: orange;
+}
+.gestion{
+    background-color: green;
+
+}
+
+.cont-id{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.cont-id h3{
+    color: rgb(255, 255, 255);
+    background-color:rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 100%;
+    
+}
+
+
+.cerrar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.cerrar a{
+    text-align: right;
+    color: red;
+    font-size: 25px;
+    padding: 5px 10px;
+
+}

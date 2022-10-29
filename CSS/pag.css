@@ -1,0 +1,48 @@
+.container-seccion{
+    position: relative;
+}
+
+
+.cont-pag{
+    background-color: rgba(207, 207, 207, 0.178);
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.pag-1{
+    text-decoration: none;
+    color: black;
+    border: none;
+    margin: 10px 20px;
+    border-radius: 3.5px;
+    /*background-color: #0D6EFD;*/
+    background-color: #212529;
+    color: white;
+    padding: 10px;
+    transition: .5s;
+}
+.pag-1:hover{
+    background-color: #21252991;
+
+}
+
+.pag{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 10px 5px;
+    background-color: #FFC107;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: .5s;
+
+}
+
+.pag:hover{
+    background-color: #b48c13;
+    
+}

@@ -1,0 +1,151 @@
+.name {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .login {
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+  }
+
+  .login i{
+    display: none;
+  }
+
+  .cerrar-seccion {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: red;
+    border-radius: 3px;
+    margin: 0 0 0 20px;
+  }
+  
+  .cerrar-seccion i{
+    color: transparent;
+    font-size: 0;
+  }
+  .cont-login {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    height: 500px;
+
+
+  }
+
+  .cont-login form {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+
+  }
+
+  .cont-login form input {
+    width: 100%;
+    height: 35px;
+    margin: 10px 0;
+  }
+
+  .cont-login .cont-link-pg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+  }
+  .cont-login .cont-link-pg a{
+    text-decoration: none;
+  }
+  .cont-login .btn{
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .cont-login h3{
+    text-transform: uppercase;
+  }
+  .cont-login .cont-a{
+    align-self: flex-end;
+  }
+  .cont-login .cont-a a{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    
+  }
+
+  .iniciar {
+    display: block;
+  }
+  .mostrar{
+    display: block;
+
+  }
+  
+  /*@medias*/
+  @media (max-width:770px) {
+    .cont-login form {
+      width: 90%;
+    }
+    .login {
+      background-color: green;
+ 
+    }
+
+    .login b {
+      display: none;
+ 
+    }
+    
+    .login i{
+      display: block;
+    }
+    .cerrar-seccion{
+      padding: 2px;
+      margin: 0 0 0 5px;
+
+      
+    }
+
+    .cerrar-seccion b {
+      display: none;
+   
+    }
+    .cerrar-seccion i{
+      color: white;
+      font-size: 15px;
+    }
+
+
+
+    .name {
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 15px;
+      text-decoration: none;
+    }
+   
+  }

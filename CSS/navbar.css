@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  body{
+    background: rgba(255, 255, 255, 0.078);
+  }
+  
+  header{
+    position: relative;
+  }
+
+  
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.583);
+  }
+  .logo {
+    width: 230px;
+  }
+  .logo-media {
+   display: none;
+  }
+  .cont-ul .lista {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .cont-ul .lista li {
+    list-style: none;
+  }
+  .cont-ul .lista li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  .cont-ul .lista li a:hover {
+    color: green;
+  }
+  
+   img{
+    width: 20px;
+    cursor: pointer;
+    object-fit: cover;
+    transition: .5s;
+  }
+  img:hover {
+    transform: scale(1.2);
+  }
+  
+  .cont-ul .lista .active__inicio{
+    color: rgb(174, 218, 174);
+    font-weight: bold;
+  }
+  
+  .busqueda_form {
+    background-color: transparent;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    gap: 5px;
+  }
+  .busqueda {
+    height: 35px;
+  
+    width: 90%;
+    outline: none;
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 15px;
+  }
+  
+  .submit {
+    height: 35px;
+    width: 50%;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    transition: .3s;
+  
+  }
+  .submit:hover{
+    background: rgb(0, 0, 0);
+  }
+  .active {
+    top: 70px;
+  }
+  
+  .cont-bars {
+    display: none;
+  }
+  .cont-buscar{
+    display: none;
+  
+  }
+  /*estilos del landy pass*/
+  .landy{
+    width: 100%;
+    margin: 60px 0 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(255, 0, 0);*/
+    gap: 15px;
+    /*overflow: hidden;*/
+  
+  
+  }
+  .cont-landy{
+    /*background-color: yellow;*/
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    transition: .5s;
+  }
+  .cont-landy:hover{
+    transform: scale(1.1);
+  }
+  .cont-landy__title{
+    font-size: 45px;
+    padding: 15px 0;
+  }
+  .cont-landy__p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 0 25px;
+  }
+  .cont-landy__a{
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .cont-landy__a:hover{
+    background-color: rgb(85, 38, 75);
+  }
+  .cont-landy-img{
+    width: 30%;
+    /*background: #000;*/
+    overflow: hidden;
+  }
+  .cont-landy-img img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+  }
+  
+  
+  /*Number car*/
+.cont-carrito a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .cont-logout{
+    top: -150%;
+    position: absolute;
+    width: auto;
+    right: 5px;
+    background-color:rgba(255, 255, 255, 0);
+    transition: .6s;
+    z-index: -10;
+    height: 100px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .userActive{
+    top: 75px;
+  }
+
+ /* .cerrar{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+
+  }*/
+
+  
+  

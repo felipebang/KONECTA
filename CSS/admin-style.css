@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100px;
+}
+/*Estructura del universal de administracion*/
+.cont-dashboard{
+    display: flex;
+    gap: 10px;
+    
+}
+nav{
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+    
+}
+ul{
+    margin: 50px 0;
+}
+
+li{
+    list-style: none;
+    margin: 15px 0;
+    /*background-color: #ffffff;*/
+    padding: 5px 20px;
+    transition: .5s;
+}
+li:hover{
+    transform: translateX(15px);
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.activo{
+    color: rgb(0, 255, 13);
+    font-weight: bold;
+}
+
+
+
+section{
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*gap: 20px;*/
+    flex-wrap: wrap;
+    overflow: auto;
+    position: relative;
+
+}
+
+
+.cont-card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    box-shadow: 1px 3px 8px black;
+    gap: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.cont-detalle{
+    width: 60%;
+
+}
+.cont-img-card{
+    width: 30%;
+}
+.cont-img-card img{
+    width: 100%;
+}
+h2{
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 18px 10px 0;
+    font-size: 18px;
+
+}
+h3{
+    font-size: 15px;
+    color: red;
+    display: inline-block;
+
+}
+p{
+    text-align: justify;
+    font-size: 13px;
+}
+
+/*Estilos aplicador al portafolio.php*/
+form{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 10px;
+    box-shadow: 2px 3px 13px rgba(0, 0, 0, 0.728);
+}
+.form-title{
+    text-align: center;
+    margin: 3px 0 15px 0;
+    color: green;
+}
+input{
+    height: 30px;
+    outline: none;
+    padding: 0 1px;
+    margin: 2px 0 5px 0;
+}
+.file{
+    height: auto;
+}
+label{
+    margin: 5px 0 0 0;
+    font-size: 15px;
+    font-weight: 550;
+}
+.form-btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+    height: 35px;
+
+}
+
+.form-btn:hover{
+    background-color: green;
+}
+
+/*Estilos aplicados al portafolio.php*/
+table{
+    background-color: rgb(230, 225, 225);
+    width: 80%;
+    border-radius: 5px;
+    padding: 2px;
+}
+th{
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 15px;
+
+}
+td{
+    background-color: white;
+    padding: 0 5px;
+    font-size: 13px;
+    text-align: justify;
+    border-radius: 5px;
+
+}
+td img{
+    width: 50px;
+}
+
+.form-portafolio{
+    width: 100px;
+    padding: 0;
+    box-shadow: none;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+}
+.btn-portafolio{
+    width: 80px;
+    margin: auto;
+    background-color: rgb(62, 62, 230);
+    color: white;
+    font-weight: 100;
+    height: auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn-portafolio:hover{
+    background-color: rgb(79, 79, 175);
+}
+
+.btn-denger{
+    width: 80px;
+    margin: auto;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 100;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn-denger:hover{
+    background-color: rgb(179, 36, 36);
+    transition: .5s;
+}
+
+.con-cerrar{
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    top: 0;
+    z-index: 10;
+}
+
+.con-user {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.con-user img{
+    width: 20px;
+    display: block;
+    align-self: flex-end;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+.con-user a{
+    color: black;
+    text-transform: capitalize;
+    font-size: 13px;
+    align-self: flex-end;
+    padding-right: 25px;
+}
+
+/*Estilos aplicados al editar.php*/
+.form-editar{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: none;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.descrip-editar{
+    text-align: justify;
+    margin:  0 0 20px 0;
+    padding: 0 5px;
+    outline: none;
+}
+
+.descrip-editar::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.descrip-editar::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.descrip-editar::-webkit-scrollbar-button:increment,.descrip-editar::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.descrip-editar::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.descrip-editar::-webkit-scrollbar-thumb {
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+    border: 2px solid rgb(132, 132, 132);
+
+}
+
+.descrip-editar::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+

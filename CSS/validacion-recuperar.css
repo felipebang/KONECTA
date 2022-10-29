@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont-modal-validar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cont-modal-validar form{
+    border: 1px solid black;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+}
+
+.cont-modal-validar form .cont-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.cont-modal-validar form .cont-btn button{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: green;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.cont-modal-validar form .cont-btn .cancelar{
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    margin: 0;
+
+    
+}
+a{
+    text-align: right;
+    align-self: flex-end;
+    color: red;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    
+}
+.cont-modal-validar form h3{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+

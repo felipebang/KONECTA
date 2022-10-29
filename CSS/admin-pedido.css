@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont-tabla{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.table{
+    width: 800px;
+}
+
+.cont-users{
+    position: absolute;
+    width: 30%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+h1{
+    margin: 0 0 25px 0;
+}
+img{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(226, 220, 220);
+    box-shadow: 2px 2px 5px black;
+    border-radius: 100%;
+    padding: 3px;
+    display: block;
+}
